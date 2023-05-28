@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
 }
 
@@ -8,7 +8,7 @@ textarea {
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
+  border-left: 1px solid #;
   padding: 10px;
 }
 
@@ -57,3 +57,17 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+.jumbotron {
+  height: 200px;
+  width: 100%;
+  background-color: #b1740f;
+}
+
+/* pallete
+b1740f tigers eye
+296EB4  azul
+D56AA0 thulian pink
+FFFFFF white
+F7E1D7 champagne pink 
+*/
