@@ -7,7 +7,7 @@ textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
+  color: #296EB4;
   border-left: 1px solid ;
   padding: 10px;
 }
@@ -49,7 +49,7 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #D56AA0;
   color: white;
 }
 
@@ -58,10 +58,25 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-.jumbotron {
-  height: 200px;
-  width: 100%;
-  background-color: #b1740f;
+
+.black {
+  background-color: #F7E1D7 ;
+  color: #b1740f;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-left: 1px solid black;
+}
+
+.white {
+  background-color: #296EB4;
+ color:#000000;
+ border-top-right-radius: 15px;
+ border-bottom-right-radius: 15px;
+ border-left: 1px solid black;
+}
+
+.pink{
+  color:#D56AA0
 }
 
 /* pallete
