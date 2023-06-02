@@ -1,7 +1,8 @@
 ## Daily Planner
 
 # Description
-This planner was created to exercise skills in HTML and CSS powered by jQuery. 
+This planner was created to exercise skills in HTML and CSS powered by jQuery.
+My motivation for this planner was to create a space where the user could plan out a busy day using a dynamically recorded browser launched hourly day planner. 
 
 # Installation
 
@@ -11,7 +12,7 @@ To use this planner you can download the starter code and run it in your browser
 This planner can be used to save events for each hour of their day.
 
 # Credits
-
+w3schools online web tutorials
 
 
 ## License

@@ -1,2 +1,0 @@
-# planner
-Date Planner
