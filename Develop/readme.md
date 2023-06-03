@@ -16,7 +16,7 @@ https://sylviaprabudy.github.io/work-day-scheduler and
 
 ![screenshot](./Develop/assets/screenshot.png)
 
-
+(https://katrod69.github.io/planner/)
 ## License
 Creative Commons Legal Code
 
