@@ -10,7 +10,15 @@ $(document).ready(function () {
       var timeslot = $(this).parent().attr("id");
       console.log(timeslot)
       localStorage.setItem(timeslot, textarea);
-  })
+  });
+});
+
+$(document).ready(function() {
+  $(".saveBtn").on("click", function (){
+    $(".savBtn").toggle();
+});
+});
+
 
 
 function itsTime() {
