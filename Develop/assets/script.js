@@ -1,7 +1,7 @@
 // todays date using dayjs
-var todayDate = dayjs().format('dddd, MMM Do YYYY');
-console.log(todayDate)
-$("#currentDay").html(todayDate);
+const date = new Date();
+console.log(date)
+$("#currentDay").html(date);
 // click listener
 $(document).ready(function () {
   $(".saveBtn").on("click", function () {
@@ -12,13 +12,12 @@ $(document).ready(function () {
       localStorage.setItem(timeslot, textarea);
   });
 });
-
-$(document).ready(function() {
-  $(".saveBtn").on("click", function (){
-    $(".savBtn").toggle();
+// toggles save button, still attempting to save buttons toggle state to local storage
+$(".place").click(function () {
+  $(this).toggleClass("yellow");
+  var saveBtnState = $(this).siblings('.saveBtn').val();
+  localStorage.setItem(saveBtnState,'toggle' )
 });
-});
-
 
 
 function itsTime() {
@@ -56,4 +55,3 @@ $("#hr-16 .description").val(localStorage.getItem("hr-16"));
 $("#hr-17 .description").val(localStorage.getItem("hr-17"));
 
 itsTime();
-})

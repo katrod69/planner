@@ -31,17 +31,17 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #296EB4;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #F7E1D7;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color:darkred;
   color: white;
 }
 
@@ -59,9 +59,17 @@ textarea {
 }
 
 
-.pink{
-  color: #b1740f
+.title{
+  background-color: #b1740f
 }
+
+.place {
+   background-color: #D56AA0; 
+  }
+.place.yellow { 
+  background-color: #b1740f; }
+
+
 
 /* pallete
 b1740f tigers eye
